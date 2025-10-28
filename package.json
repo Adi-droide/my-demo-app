@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple demo app for Zero Downtime Hub",
   "scripts": {
-    "build": "echo 'No build process needed for static HTML'",
+    "build": "./build.sh",
     "start": "npx serve -s . -p 5000 --no-request-logging"
   },
   "keywords": ["demo", "static", "html"],
