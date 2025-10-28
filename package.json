@@ -4,7 +4,7 @@
   "description": "A simple demo app for Zero Downtime Hub",
   "scripts": {
     "build": "./build.sh",
-    "start": "npx serve -s . -p 5000 --no-request-logging"
+    "start": "npx serve -s . -p $PORT"
   },
   "keywords": ["demo", "static", "html"],
   "author": "Your Name",
